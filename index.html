@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reels and Video Downloader TAU</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body><div class="wrap">
+<header class="top"><div class="brand"><div class="logo">↓</div><span>TAU <span style="color:#9cecf9">DOWNLOADER</span></span></div><div class="pill">✦ Public links only</div></header>
+<main><section class="hero"><span class="eyebrow">Fast · Simple · Premium</span><h1>Reels & Video<br><span class="gradient">Downloader TAU</span></h1><p>Paste a supported public video link and try to download the video directly to your device.</p></section>
+<section class="card"><label class="label" for="videoUrl">Paste video URL</label><div class="inputrow"><input id="videoUrl" class="urlinput" type="url" placeholder="Paste a YouTube, Instagram Reel, or TikTok link" spellcheck="false"><button id="goBtn" class="btn">⬇ Start download</button></div><span class="hint">Only public videos that are accessible without login or bypassing protections. Download only content you own or have permission to save.</span><div id="status" class="status" role="status" aria-live="polite"></div></section>
+<section class="platforms"><article class="platform"><b>▶ YouTube</b><p>Public video links may work, subject to platform rules and availability.</p></article><article class="platform"><b>◎ Instagram</b><p>Public Reels may work when accessible without login.</p></article><article class="platform"><b>♪ TikTok</b><p>Public video links may work; availability can change.</p></article></section>
+<div class="note"><strong>Notice:</strong> This server does not support private/login-required videos or DRM-protected content. Use this service only for videos you own, have permission to download, or are otherwise legally allowed to save. Platform rules and local law still apply.</div></main>
+<footer class="footer">© <span id="year"></span> Reels and Video Downloader TAU</footer></div>
+<script src="{{ url_for('static', filename='script.js') }}" defer></script></body></html>
